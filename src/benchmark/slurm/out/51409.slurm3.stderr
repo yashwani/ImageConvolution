@@ -1,0 +1,2218 @@
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffdf4956369, 0x5, 0x7ffdf495636f, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffdf4956369, 0x5, 0x7ffdf495636f, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcf3c36368, 0x5, 0x7ffcf3c3636e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcf3c36368, 0x5, 0x7ffcf3c3636e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffebffcc369, 0x5, 0x7ffebffcc36f, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffebffcc369, 0x5, 0x7ffebffcc36f, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd52d3b368, 0x5, 0x7ffd52d3b36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd52d3b368, 0x5, 0x7ffd52d3b36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc8c4d4368, 0x5, 0x7ffc8c4d436e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc8c4d4368, 0x5, 0x7ffc8c4d436e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffca06f9368, 0x5, 0x7ffca06f936e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffca06f9368, 0x5, 0x7ffca06f936e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc51f4c368, 0x5, 0x7ffc51f4c36e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc51f4c368, 0x5, 0x7ffc51f4c36e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 23 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000154000, 0xc000150000, 0x4, 0x4, 0xc0001142a0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe30d31368, 0x5, 0x7ffe30d3136e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe30d31368, 0x5, 0x7ffe30d3136e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff62057368, 0x5, 0x7fff6205736e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff62057368, 0x5, 0x7fff6205736e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe98bc8369, 0x5, 0x7ffe98bc836f, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe98bc8369, 0x5, 0x7ffe98bc836f, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 23 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000154000, 0xc000150000, 0x4, 0x4, 0xc0001142a0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe7ecc8368, 0x5, 0x7ffe7ecc836e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe7ecc8368, 0x5, 0x7ffe7ecc836e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 25 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000152000, 0xc000120180, 0x6, 0x6, 0xc000114360, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd665d3368, 0x5, 0x7ffd665d336e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd665d3368, 0x5, 0x7ffd665d336e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd27bfb369, 0x5, 0x7ffd27bfb36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd27bfb369, 0x5, 0x7ffd27bfb36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fffdb1ad368, 0x5, 0x7fffdb1ad36e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fffdb1ad368, 0x5, 0x7fffdb1ad36e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff675eb369, 0x5, 0x7fff675eb36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff675eb369, 0x5, 0x7fff675eb36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcb519d368, 0x5, 0x7ffcb519d36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcb519d368, 0x5, 0x7ffcb519d36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 27 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015a000, 0xc000142080, 0x8, 0x8, 0xc000114420, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc60cb8369, 0x5, 0x7ffc60cb836f, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc60cb8369, 0x5, 0x7ffc60cb836f, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe2a23e368, 0x5, 0x7ffe2a23e36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe2a23e368, 0x5, 0x7ffe2a23e36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fffd06ba36a, 0x5, 0x7fffd06ba370, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fffd06ba36a, 0x5, 0x7fffd06ba370, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc4f90b368, 0x5, 0x7ffc4f90b36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc4f90b368, 0x5, 0x7ffc4f90b36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 27 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015a000, 0xc000142080, 0x8, 0x8, 0xc000114420, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff6c169367, 0x5, 0x7fff6c16936d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff6c169367, 0x5, 0x7fff6c16936d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcd191a367, 0x5, 0x7ffcd191a36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcd191a367, 0x5, 0x7ffcd191a36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 46 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00013e000, 0xc000116060, 0xc, 0xc, 0xc000130540, 0xc000130000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcdafac367, 0x5, 0x7ffcdafac36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcdafac367, 0x5, 0x7ffcdafac36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff3a1a4367, 0x5, 0x7fff3a1a436d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff3a1a4367, 0x5, 0x7fff3a1a436d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 31 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc0001ae000, 0xc000184120, 0xc, 0xc, 0xc0001a0540, 0xc0001a0000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd9abfb368, 0x5, 0x7ffd9abfb36e, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd9abfb368, 0x5, 0x7ffd9abfb36e, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 31 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015c000, 0xc000140120, 0xc, 0xc, 0xc0001145a0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe49a49366, 0x7, 0x7ffe49a4936e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe49a49366, 0x7, 0x7ffe49a4936e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 21 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000150000, 0xc00011e380, 0x2, 0x2, 0xc0001141e0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc7249c366, 0x7, 0x7ffc7249c36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc7249c366, 0x7, 0x7ffc7249c36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffdabfb7366, 0x7, 0x7ffdabfb736e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffdabfb7366, 0x7, 0x7ffdabfb736e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffff5dee367, 0x7, 0x7ffff5dee36f, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffff5dee367, 0x7, 0x7ffff5dee36f, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 21 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000150000, 0xc00011e380, 0x2, 0x2, 0xc0001141e0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffea5a36366, 0x7, 0x7ffea5a3636e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffea5a36366, 0x7, 0x7ffea5a3636e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd852ea367, 0x7, 0x7ffd852ea36f, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd852ea367, 0x7, 0x7ffd852ea36f, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 23 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000154000, 0xc000150000, 0x4, 0x4, 0xc0001142a0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffdffcb1367, 0x7, 0x7ffdffcb136f, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffdffcb1367, 0x7, 0x7ffdffcb136f, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff0bb31366, 0x7, 0x7fff0bb3136e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff0bb31366, 0x7, 0x7fff0bb3136e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd0120d366, 0x7, 0x7ffd0120d36e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd0120d366, 0x7, 0x7ffd0120d36e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 38 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00013e000, 0xc00013a000, 0x4, 0x4, 0xc000130240, 0xc000130000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff10aa3366, 0x7, 0x7fff10aa336e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff10aa3366, 0x7, 0x7fff10aa336e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff95176367, 0x7, 0x7fff9517636f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff95176367, 0x7, 0x7fff9517636f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 25 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc000152000, 0xc000120180, 0x6, 0x6, 0xc000114360, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fffe37a9366, 0x7, 0x7fffe37a936e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fffe37a9366, 0x7, 0x7fffe37a936e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc51e65366, 0x7, 0x7ffc51e6536e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc51e65366, 0x7, 0x7ffc51e6536e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe28819366, 0x7, 0x7ffe2881936e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe28819366, 0x7, 0x7ffe2881936e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe6554a367, 0x7, 0x7ffe6554a36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe6554a367, 0x7, 0x7ffe6554a36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff639f1366, 0x7, 0x7fff639f136e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff639f1366, 0x7, 0x7fff639f136e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 27 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015a000, 0xc000142080, 0x8, 0x8, 0xc000114420, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff630b1366, 0x7, 0x7fff630b136e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff630b1366, 0x7, 0x7fff630b136e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00009c3c0, 0xc00009c000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fffbff5d366, 0x7, 0x7fffbff5d36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fffbff5d366, 0x7, 0x7fffbff5d36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffff8c73366, 0x7, 0x7ffff8c7336e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffff8c73366, 0x7, 0x7ffff8c7336e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcfbc59366, 0x7, 0x7ffcfbc5936e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcfbc59366, 0x7, 0x7ffcfbc5936e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 27 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015a000, 0xc000142080, 0x8, 0x8, 0xc000114420, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffeb7617366, 0x7, 0x7ffeb761736e, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffeb7617366, 0x7, 0x7ffeb761736e, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe235ec365, 0x7, 0x7ffe235ec36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe235ec365, 0x7, 0x7ffe235ec36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc209ae365, 0x7, 0x7ffc209ae36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc209ae365, 0x7, 0x7ffc209ae36d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcb1c16365, 0x7, 0x7ffcb1c1636d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcb1c16365, 0x7, 0x7ffcb1c1636d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe789c9366, 0x7, 0x7ffe789c936e, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe789c9366, 0x7, 0x7ffe789c936e, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc42fd836a, 0x3, 0x7ffc42fd836e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc42fd836a, 0x3, 0x7ffc42fd836e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe3bd5b36a, 0x3, 0x7ffe3bd5b36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe3bd5b36a, 0x3, 0x7ffe3bd5b36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc8921936a, 0x3, 0x7ffc8921936e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc8921936a, 0x3, 0x7ffc8921936e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe940d936a, 0x3, 0x7ffe940d936e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe940d936a, 0x3, 0x7ffe940d936e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd3fddc36a, 0x3, 0x7ffd3fddc36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd3fddc36a, 0x3, 0x7ffd3fddc36e, 0x8, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 9 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000074390, 0x2, 0x2, 0xc00008e1e0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffdaad7836a, 0x3, 0x7ffdaad7836e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffdaad7836a, 0x3, 0x7ffdaad7836e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffdabac836a, 0x3, 0x7ffdabac836e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffdabac836a, 0x3, 0x7ffdabac836e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe5202936a, 0x3, 0x7ffe5202936e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe5202936a, 0x3, 0x7ffe5202936e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc44f6336a, 0x3, 0x7ffc44f6336e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc44f6336a, 0x3, 0x7ffc44f6336e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 23 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc0001a6000, 0xc0001a2000, 0x4, 0x4, 0xc0001a0240, 0xc0001a0000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff2ac2836a, 0x3, 0x7fff2ac2836e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff2ac2836a, 0x3, 0x7fff2ac2836e, 0x8, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 11 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000080020, 0x4, 0x4, 0xc00008e2a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd4d73336a, 0x3, 0x7ffd4d73336e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd4d73336a, 0x3, 0x7ffd4d73336e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc4e7c836a, 0x3, 0x7ffc4e7c836e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc4e7c836a, 0x3, 0x7ffc4e7c836e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fffc271c36b, 0x3, 0x7fffc271c36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fffc271c36b, 0x3, 0x7fffc271c36f, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff9f54d36a, 0x3, 0x7fff9f54d36e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff9f54d36a, 0x3, 0x7fff9f54d36e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffe07aa736a, 0x3, 0x7ffe07aa736e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffe07aa736a, 0x3, 0x7ffe07aa736e, 0x8, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 13 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000098180, 0x6, 0x6, 0xc00008e360, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd4a0b836a, 0x3, 0x7ffd4a0b836e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd4a0b836a, 0x3, 0x7ffd4a0b836e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc6af6136a, 0x3, 0x7ffc6af6136e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc6af6136a, 0x3, 0x7ffc6af6136e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffff82a036a, 0x3, 0x7ffff82a036e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffff82a036a, 0x3, 0x7ffff82a036e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcaf1da36a, 0x3, 0x7ffcaf1da36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcaf1da36a, 0x3, 0x7ffcaf1da36e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd7864936a, 0x3, 0x7ffd7864936e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd7864936a, 0x3, 0x7ffd7864936e, 0x8, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 15 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc0000100c0, 0x8, 0x8, 0xc00008e420, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffd49dc4369, 0x3, 0x7ffd49dc436d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffd49dc4369, 0x3, 0x7ffd49dc436d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 31 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015c000, 0xc000140120, 0xc, 0xc, 0xc0001145a0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fffcbf30369, 0x3, 0x7fffcbf3036d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fffcbf30369, 0x3, 0x7fffcbf3036d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7fff44512369, 0x3, 0x7fff4451236d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7fff44512369, 0x3, 0x7fff4451236d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 31 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00015c000, 0xc000140120, 0xc, 0xc, 0xc0001145a0, 0xc000114060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffc03a12369, 0x3, 0x7ffc03a1236d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffc03a12369, 0x3, 0x7ffc03a1236d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+proj2/scheduler.RunPipeline(0x7ffcfe872369, 0x3, 0x7ffcfe87236d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:149 +0x18c
+proj2/scheduler.Schedule(0x7ffcfe872369, 0x3, 0x7ffcfe87236d, 0x8, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:19 +0x131
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+
+goroutine 19 [chan receive]:
+proj2/scheduler.ResultsAggregator.func2(0xc00007e070, 0xc000082180, 0xc, 0xc, 0xc00008e5a0, 0xc00008e060)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:114 +0x6a
+created by proj2/scheduler.ResultsAggregator
+	/home/yashwani/proj2-yashwani/proj2/scheduler/pipeline.go:108 +0xf5
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc5cef936d, 0x5, 0x7ffc5cef9373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffcc008f36d, 0x5, 0x7ffcc008f373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffc5f6336d, 0x5, 0x7fffc5f63373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe1fd9d36d, 0x5, 0x7ffe1fd9d373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe5229d36e, 0x5, 0x7ffe5229d374, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff92a1736d, 0x5, 0x7fff92a17373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 8 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd244f136d, 0x5, 0x7ffd244f1373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe10fd136e, 0x5, 0x7ffe10fd1374, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffca487436d, 0x5, 0x7ffca4874373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc9d8af36d, 0x5, 0x7ffc9d8af373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd6124f36d, 0x5, 0x7ffd6124f373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffde44f36d, 0x5, 0x7fffde44f373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff36c6936d, 0x5, 0x7fff36c69373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffc816836d, 0x5, 0x7fffc8168373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 8 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffcd4dfc36d, 0x5, 0x7ffcd4dfc373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe23dd936f, 0x5, 0x7ffe23dd9375, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 7 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd0399936d, 0x5, 0x7ffd03999373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe568ff36e, 0x5, 0x7ffe568ff374, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff8adbb36d, 0x5, 0x7fff8adbb373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc7335936d, 0x5, 0x7ffc73359373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 10 [running]:
+proj2/scheduler.RunBSPWorker(0x4, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd59ece36c, 0x5, 0x7ffd59ece372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 7 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe10ab936c, 0x5, 0x7ffe10ab9372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 8 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 19 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffeae2c36d, 0x5, 0x7fffeae2c373, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 8 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd84f0136e, 0x5, 0x7ffd84f01374, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc26e3b36b, 0x7, 0x7ffc26e3b373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffdf655136c, 0x7, 0x7ffdf6551374, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 18 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe7cd5736b, 0x7, 0x7ffe7cd57373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffce41c436c, 0x7, 0x7ffce41c4374, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 18 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffaf1a736b, 0x7, 0x7fffaf1a7373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffcd155d36b, 0x7, 0x7ffcd155d373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffdfdc4d36b, 0x7, 0x7ffdfdc4d373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff0147a36b, 0x7, 0x7fff0147a373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff9c5ad36c, 0x7, 0x7fff9c5ad374, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe5f50236b, 0x7, 0x7ffe5f502373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffea9ce036c, 0x7, 0x7ffea9ce0374, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc6a53436b, 0x7, 0x7ffc6a534373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc10f6536c, 0x7, 0x7ffc10f65374, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd19d5f36c, 0x7, 0x7ffd19d5f374, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffebe34436b, 0x7, 0x7ffebe344373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff4a84a36b, 0x7, 0x7fff4a84a373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc9f3d036b, 0x7, 0x7ffc9f3d0373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffdfb2e436b, 0x7, 0x7ffdfb2e4373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc28a8a36b, 0x7, 0x7ffc28a8a373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffda82ef36b, 0x7, 0x7ffda82ef373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 19 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 24 [running]:
+proj2/scheduler.RunBSPWorker(0x6, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 21 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffded1ad36a, 0x7, 0x7ffded1ad372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 7 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffea68a536a, 0x7, 0x7ffea68a5372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 13 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff99e5436f, 0x3, 0x7fff99e54373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc90fd736f, 0x3, 0x7ffc90fd7373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 18 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd4f98436f, 0x3, 0x7ffd4f984373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffbf9df36f, 0x3, 0x7fffbf9df373, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 18 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff583ab370, 0x3, 0x7fff583ab374, 0x3, 0x2)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 18 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffdf0eb836f, 0x3, 0x7ffdf0eb8373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc00013a000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fffe162b36f, 0x3, 0x7fffe162b373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 34 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc00013a000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 35 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc00013a000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd2a45836f, 0x3, 0x7ffd2a458373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffdf9b79370, 0x3, 0x7ffdf9b79374, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffdff19536f, 0x3, 0x7ffdff195373, 0x3, 0x4)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc0c97e36f, 0x3, 0x7ffc0c97e373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffcb53dd36f, 0x3, 0x7ffcb53dd373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe9c9fd36f, 0x3, 0x7ffe9c9fd373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd218e7370, 0x3, 0x7ffd218e7374, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x5, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc5b7ab36f, 0x3, 0x7ffc5b7ab373, 0x3, 0x6)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 9 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd41bcf36f, 0x3, 0x7ffd41bcf373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7fff3095a36f, 0x3, 0x7fff3095a373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe7403336f, 0x3, 0x7ffe74033373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffd58d2636f, 0x3, 0x7ffd58d26373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0x7, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffcca93436f, 0x3, 0x7ffcca934373, 0x3, 0x8)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 19 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 18 [running]:
+proj2/scheduler.RunBSPWorker(0x0, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffc448b736e, 0x3, 0x7ffc448b7372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 19 [running]:
+proj2/scheduler.RunBSPWorker(0x1, 0xc0001aa000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 20 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 24 [running]:
+proj2/scheduler.RunBSPWorker(0x6, 0xc000158000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffcb15a436e, 0x3, 0x7ffcb15a4372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 10 [running]:
+proj2/scheduler.RunBSPWorker(0x4, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 36 [running]:
+proj2/scheduler.RunBSPWorker(0x3, 0xc00013a000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 35 [running]:
+proj2/scheduler.RunBSPWorker(0x2, 0xc00013a000)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+proj2/scheduler.RunBSPWorker(0xb, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+proj2/scheduler.Schedule(0x7ffe5ee2036e, 0x3, 0x7ffe5ee20372, 0x3, 0xc)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:26 +0x105
+main.main()
+	/home/yashwani/proj2-yashwani/proj2/editor/editor.go:33 +0x146
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 10 [running]:
+proj2/scheduler.RunBSPWorker(0x4, 0xc000030080)
+	/home/yashwani/proj2-yashwani/proj2/scheduler/bsp.go:83 +0x26a
+created by proj2/scheduler.Schedule
+	/home/yashwani/proj2-yashwani/proj2/scheduler/scheduler.go:24 +0xda
+exit status 2

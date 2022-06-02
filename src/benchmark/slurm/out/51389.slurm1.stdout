@@ -1,0 +1,183 @@
+Defaulting to user installation because normal site-packages is not writeable
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go small bsp 2
+go run ../editor/editor.go small bsp 2
+go run ../editor/editor.go small bsp 2
+go run ../editor/editor.go small bsp 2
+go run ../editor/editor.go small bsp 2
+go run ../editor/editor.go mixture bsp 2
+go run ../editor/editor.go mixture bsp 2
+go run ../editor/editor.go mixture bsp 2
+go run ../editor/editor.go mixture bsp 2
+go run ../editor/editor.go mixture bsp 2
+go run ../editor/editor.go big bsp 2
+go run ../editor/editor.go big bsp 2
+go run ../editor/editor.go big bsp 2
+go run ../editor/editor.go big bsp 2
+go run ../editor/editor.go big bsp 2
+go run ../editor/editor.go small bsp 4
+go run ../editor/editor.go small bsp 4
+go run ../editor/editor.go small bsp 4
+go run ../editor/editor.go small bsp 4
+go run ../editor/editor.go small bsp 4
+go run ../editor/editor.go mixture bsp 4
+go run ../editor/editor.go mixture bsp 4
+go run ../editor/editor.go mixture bsp 4
+go run ../editor/editor.go mixture bsp 4
+go run ../editor/editor.go mixture bsp 4
+go run ../editor/editor.go big bsp 4
+go run ../editor/editor.go big bsp 4
+go run ../editor/editor.go big bsp 4
+go run ../editor/editor.go big bsp 4
+go run ../editor/editor.go big bsp 4
+go run ../editor/editor.go small bsp 6
+go run ../editor/editor.go small bsp 6
+go run ../editor/editor.go small bsp 6
+go run ../editor/editor.go small bsp 6
+go run ../editor/editor.go small bsp 6
+go run ../editor/editor.go mixture bsp 6
+go run ../editor/editor.go mixture bsp 6
+go run ../editor/editor.go mixture bsp 6
+go run ../editor/editor.go mixture bsp 6
+go run ../editor/editor.go mixture bsp 6
+go run ../editor/editor.go big bsp 6
+go run ../editor/editor.go big bsp 6
+go run ../editor/editor.go big bsp 6
+go run ../editor/editor.go big bsp 6
+go run ../editor/editor.go big bsp 6
+go run ../editor/editor.go small bsp 8
+go run ../editor/editor.go small bsp 8
+go run ../editor/editor.go small bsp 8
+go run ../editor/editor.go small bsp 8
+go run ../editor/editor.go small bsp 8
+go run ../editor/editor.go mixture bsp 8
+go run ../editor/editor.go mixture bsp 8
+go run ../editor/editor.go mixture bsp 8
+go run ../editor/editor.go mixture bsp 8
+go run ../editor/editor.go mixture bsp 8
+go run ../editor/editor.go big bsp 8
+go run ../editor/editor.go big bsp 8
+go run ../editor/editor.go big bsp 8
+go run ../editor/editor.go big bsp 8
+go run ../editor/editor.go big bsp 8
+go run ../editor/editor.go small bsp 12
+go run ../editor/editor.go small bsp 12
+go run ../editor/editor.go small bsp 12
+go run ../editor/editor.go small bsp 12
+go run ../editor/editor.go small bsp 12
+go run ../editor/editor.go mixture bsp 12
+go run ../editor/editor.go mixture bsp 12
+go run ../editor/editor.go mixture bsp 12
+go run ../editor/editor.go mixture bsp 12
+go run ../editor/editor.go mixture bsp 12
+go run ../editor/editor.go big bsp 12
+go run ../editor/editor.go big bsp 12
+go run ../editor/editor.go big bsp 12
+go run ../editor/editor.go big bsp 12
+go run ../editor/editor.go big bsp 12
+defaultdict(<class 'list'>, {'small': [0.3855022504925728, 0.32516340911388397, 0.3443747147917747, 0.3919620722532272, 0.5459464028477669, 0.6170503184199333], 'mixture': [0.3164900720119476, 0.36250458657741547, 0.3168521851301193, 0.5229170829057693, 0.4655553936958313, 0.574971966445446], 'big': [0.31506959199905393, 0.3518452614545822, 0.3265930160880089, 0.5430628135800362, 0.5679937765002251, 0.6673432394862175]})
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go small
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go mixture
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go big
+go run ../editor/editor.go small pipeline 2
+go run ../editor/editor.go small pipeline 2
+go run ../editor/editor.go small pipeline 2
+go run ../editor/editor.go small pipeline 2
+go run ../editor/editor.go small pipeline 2
+go run ../editor/editor.go mixture pipeline 2
+go run ../editor/editor.go mixture pipeline 2
+go run ../editor/editor.go mixture pipeline 2
+go run ../editor/editor.go mixture pipeline 2
+go run ../editor/editor.go mixture pipeline 2
+go run ../editor/editor.go big pipeline 2
+go run ../editor/editor.go big pipeline 2
+go run ../editor/editor.go big pipeline 2
+go run ../editor/editor.go big pipeline 2
+go run ../editor/editor.go big pipeline 2
+go run ../editor/editor.go small pipeline 4
+go run ../editor/editor.go small pipeline 4
+go run ../editor/editor.go small pipeline 4
+go run ../editor/editor.go small pipeline 4
+go run ../editor/editor.go small pipeline 4
+go run ../editor/editor.go mixture pipeline 4
+go run ../editor/editor.go mixture pipeline 4
+go run ../editor/editor.go mixture pipeline 4
+go run ../editor/editor.go mixture pipeline 4
+go run ../editor/editor.go mixture pipeline 4
+go run ../editor/editor.go big pipeline 4
+go run ../editor/editor.go big pipeline 4
+go run ../editor/editor.go big pipeline 4
+go run ../editor/editor.go big pipeline 4
+go run ../editor/editor.go big pipeline 4
+go run ../editor/editor.go small pipeline 6
+go run ../editor/editor.go small pipeline 6
+go run ../editor/editor.go small pipeline 6
+go run ../editor/editor.go small pipeline 6
+go run ../editor/editor.go small pipeline 6
+go run ../editor/editor.go mixture pipeline 6
+go run ../editor/editor.go mixture pipeline 6
+go run ../editor/editor.go mixture pipeline 6
+go run ../editor/editor.go mixture pipeline 6
+go run ../editor/editor.go mixture pipeline 6
+go run ../editor/editor.go big pipeline 6
+go run ../editor/editor.go big pipeline 6
+go run ../editor/editor.go big pipeline 6
+go run ../editor/editor.go big pipeline 6
+go run ../editor/editor.go big pipeline 6
+go run ../editor/editor.go small pipeline 8
+go run ../editor/editor.go small pipeline 8
+go run ../editor/editor.go small pipeline 8
+go run ../editor/editor.go small pipeline 8
+go run ../editor/editor.go small pipeline 8
+go run ../editor/editor.go mixture pipeline 8
+go run ../editor/editor.go mixture pipeline 8
+go run ../editor/editor.go mixture pipeline 8
+go run ../editor/editor.go mixture pipeline 8
+go run ../editor/editor.go mixture pipeline 8
+go run ../editor/editor.go big pipeline 8
+go run ../editor/editor.go big pipeline 8
+go run ../editor/editor.go big pipeline 8
+go run ../editor/editor.go big pipeline 8
+go run ../editor/editor.go big pipeline 8
+go run ../editor/editor.go small pipeline 12
+go run ../editor/editor.go small pipeline 12
+go run ../editor/editor.go small pipeline 12
+go run ../editor/editor.go small pipeline 12
+go run ../editor/editor.go small pipeline 12
+go run ../editor/editor.go mixture pipeline 12
+go run ../editor/editor.go mixture pipeline 12
+go run ../editor/editor.go mixture pipeline 12
+go run ../editor/editor.go mixture pipeline 12
+go run ../editor/editor.go mixture pipeline 12
+go run ../editor/editor.go big pipeline 12
+go run ../editor/editor.go big pipeline 12
+go run ../editor/editor.go big pipeline 12
+go run ../editor/editor.go big pipeline 12
+go run ../editor/editor.go big pipeline 12
+defaultdict(<class 'list'>, {'small': [0.6418093085289002, 0.3735779494047165, 0.3581911563873291, 0.38521620333194734, 0.3272423416376114, 0.313828681409359], 'mixture': [0.6633331432938576, 0.3895438462495804, 0.32029913514852526, 0.31922326385974886, 0.3106441929936409, 0.3085017934441566], 'big': [0.3666451722383499, 0.3628006190061569, 0.3053161039948463, 0.3254071205854416, 0.3182398185133934, 0.34851444512605667]})

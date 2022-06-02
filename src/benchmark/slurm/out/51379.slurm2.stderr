@@ -1,0 +1,26 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+ERROR: Invalid requirement: '—user'
+WARNING: You are using pip version 22.0.4; however, version 22.1 is available.
+You should consider upgrading via the '/bin/python3 -m pip install --upgrade pip' command.
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(speedup_graph.py:2083863): Gdk-CRITICAL **: 17:38:35.713: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed

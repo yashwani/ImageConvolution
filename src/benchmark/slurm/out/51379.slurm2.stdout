@@ -1,0 +1,9 @@
+Defaulting to user installation because normal site-packages is not writeable
+go run ../editor/editor.go small
+go run ../editor/editor.go small bsp 2
+go run ../editor/editor.go small bsp 4
+defaultdict(<class 'list'>, {'small': [9.110530532896519, 1.7782136052846909, 0.43307945877313614]})
+go run ../editor/editor.go small
+go run ../editor/editor.go small pipeline 2
+go run ../editor/editor.go small pipeline 4
+defaultdict(<class 'list'>, {'small': [0.413407139480114, 0.4160699397325516, 0.40945426374673843]})
